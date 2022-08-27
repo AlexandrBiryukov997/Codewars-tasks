@@ -12,4 +12,5 @@ function find_average(array) {
   }
     return numbers / array.length;
   }
+    
 
