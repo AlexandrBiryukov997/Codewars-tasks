@@ -5,12 +5,13 @@
 
 function find_average(array) {
     let numbers = 0;
-  for(i = 0;i < array.length;i++) {
-    if(array.length !== 0) {
-      numbers += array[i];
-    } else numbers = 0;
-  }
+    if(array.length === 0) {
+      return 0;
+    }
+    for(i = 0;i < array.length;i++) {
+      if(array.length !== 0) {
+        numbers += array[i];
+      } 
+    }
     return numbers / array.length;
-  }
-    
-
+   }
